@@ -1,0 +1,27 @@
+                               * {
+                                   padding: 0;
+                                   margin: 0;
+                                   box-sizing: border-box;
+                               }
+                               
+                               .container {
+                                   display: flex;
+                                   flex-direction: column;
+                                   justify-content: center;
+                                   align-items: center;
+                                   width: 100%;
+                                   overflow: hidden;
+                               }
+                               
+                               .navbar {
+                                   width: 90%;
+                                   height: 7vh;
+                                   display: flex;
+                                   justify-content: flex-end;
+                                   align-items: center;
+                                   margin-bottom: 20px;
+                               }
+                               
+                               .logo {
+                                   margin-bottom: 20px;
+                               }
