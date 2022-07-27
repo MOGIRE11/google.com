@@ -1,27 +1,74 @@
-                               * {
-                                   padding: 0;
-                                   margin: 0;
-                                   box-sizing: border-box;
-                               }
-                               
-                               .container {
-                                   display: flex;
-                                   flex-direction: column;
-                                   justify-content: center;
-                                   align-items: center;
-                                   width: 100%;
-                                   overflow: hidden;
-                               }
-                               
-                               .navbar {
-                                   width: 90%;
-                                   height: 7vh;
-                                   display: flex;
-                                   justify-content: flex-end;
-                                   align-items: center;
-                                   margin-bottom: 20px;
-                               }
-                               
-                               .logo {
-                                   margin-bottom: 20px;
-                               }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.navbar {
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.search {
+    /* height: 15vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 45%;
+    max-width: 80%;
+    height: 50px;
+    border: 1px solid lightblue;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbox {
+    text-indent: 2em;
+    height: 100%;
+    width: 90%;
+    border: 1px solid white;
+    font-size: large;
+}
+
+#searchbox:focus {
+    outline: none;
+    border: none;
+}
+
+#btn {
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+#btn:hover {
+    border: 1px solid lightblue;
+}

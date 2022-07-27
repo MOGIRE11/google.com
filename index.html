@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
     <link rel="shortcut icon" href="images\googlefavicon.png" type="image/x-icon">
 </head>
 
@@ -22,10 +23,18 @@
         </div>
 
         <div class="search">
-            <input type="text" title="search" id="searchbox">
+            <form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search" title="search" id="searchbox">
+                <i class="fa-solid fa-microphone"></i>
+            </form>
+
             <br>
-            <button type="button" id="btn">Google search</button>
-            <button type="button" id="btn">I'm Feeling lucky</button>
+            <div class="buttons">
+                <button type="button" id="btn">Google search</button>
+                <button type="button" id="btn">I'm Feeling lucky</button>
+            </div>
+
         </div>
 
         <div class="language">
